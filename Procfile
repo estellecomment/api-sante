@@ -1,1 +1,1 @@
-web: fastapi-csv https://raw.githubusercontent.com/jrieke/fastapi-csv/main/people.csv --port $PORT --host 0.0.0.0
+web: fastapi-csv $CSV_PATH --port $PORT --host 0.0.0.0
