@@ -1,1 +1,5 @@
-fastapi-csv==0.1.0
+# Package from Pypi
+#fastapi-csv==0.1.0
+
+# Temporarily use betagouv version to have the --delimiter arg.
+git+git://github.com/betagouv/fastapi-csv@main#egg=fastapi-csv
