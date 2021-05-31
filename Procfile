@@ -1,1 +1,1 @@
-web: echo 'Hello web' && fastapi-csv https://raw.githubusercontent.com/jrieke/fastapi-csv/main/people.csv --port $PORT --host localhost
+web: echo 'Hello web' && fastapi-csv https://raw.githubusercontent.com/jrieke/fastapi-csv/main/people.csv --port $PORT --host 0.0.0.0
