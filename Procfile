@@ -1,1 +1,1 @@
-web: fastapi-csv $CSV_PATH --port $PORT --host 0.0.0.0
+web: fastapi-csv $CSV_PATH --port $PORT --host 0.0.0.0 --delimiter "|"
