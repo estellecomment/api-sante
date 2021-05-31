@@ -9,6 +9,11 @@
       "description": "The URL to the CSV data file that you want to serve by your API.",
       "value": "https://raw.githubusercontent.com/jrieke/fastapi-csv/main/people.csv",
       "required": true
+    },
+    "DELIMITER": {
+      "description": "If your CSV file is not comma-separated, specify the delimiter character (for example '|')",
+      "value": ",",
+      "required": false
     }
   },
   "formation": {
